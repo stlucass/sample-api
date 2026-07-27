@@ -1,0 +1,20 @@
+{
+  "name": "Java DevOps Dev",
+  "image": "mcr.microsoft.com/devcontainers/java:21-gradle",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:latest": {},
+    "ghcr.io/devcontainers/features/github-cli:latest": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.extension-pack-for-java",
+        "redhat.vscode-xml",
+        "ms-vscode.makefile-tools"
+      ]
+    }
+  },
+  "forwardPorts": [8080],
+  "postCreateCommand": "mvn clean verify",
+  "remoteUser": "vscode"
+}

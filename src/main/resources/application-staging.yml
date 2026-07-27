@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: staging
+
+logging:
+  level:
+    root: WARN
+    com.lizardsdba: INFO
