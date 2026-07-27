@@ -1,5 +1,8 @@
 # Sample API
 
+[![CI Status](https://github.com/stlucass/sample-api/actions/workflows/ci.yml/badge.svg)](https://github.com/stlucass/sample-api/actions/workflows/ci.yml)
+[![CD Status](https://github.com/stlucass/sample-api/actions/workflows/cd.yml/badge.svg)](https://github.com/stlucass/sample-api/actions/workflows/cd.yml)
+
 > DevOps sample project for testing CI/CD workflows.
 
 ## Quick Start
